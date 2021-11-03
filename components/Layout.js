@@ -1,11 +1,7 @@
-import styles from '../styles/Home.module.css'
-import Subscribe from '../components/Subscribe'
 import Header from '../components/Header'
-import Hero from '../components/Hero'
 import HeadTop from '../components/HeadTop'
 
 export default function Layout({ children }) {
-
     return (
         <div className="flex flex-col bg-offwhite h-screen justify-between">
             <HeadTop />
